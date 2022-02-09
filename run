@@ -1,0 +1,7 @@
+cardano-node run \
+--config $HOME/Projects/ada_nft/testnet-config.json \
+--database-path $HOME/Projects/ada_nft/db/ \
+--socket-path $HOME/Projects/ada_nft/db/node.socket \
+--host-addr 127.0.0.1 \
+--port 1337 \
+--topology $HOME/Projects/ada_nft/testnet-topology.json
