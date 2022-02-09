@@ -1,4 +1,4 @@
-# HOW TO RUN A CARDANO NODE AND MINT A CARDANO NFT
+# CARDANO: RUN A NODE AND MINT AN NFT
 
 ### Work In Progress
 
@@ -38,15 +38,15 @@ List available remotes...
 	cardano-cli blockchain remote-ls testnet
 
 
-"Try 
+"Try... 
 
 	--detailed 
 	
-for more details about the status of the remotes, and 
+...for more details about the status of the remotes, and...
 
 	--complete 
 	
-(necessitate network connection) for a comparative review of the local states and the remotes."
+...(necessitate network connection) for a comparative review of the local states and the remotes."
 
 "And now, to fetch the block you can either use remote-sync or pull commands. The latter will also forward the state of the local blockchain to the latest block within the remotes."
 
@@ -56,7 +56,7 @@ Or faster...
 
 	cardano-cli blockchain remote-fetch testnet hermes 
 
-first.
+...first.
 
 "Choose which of the new blocks will be the next tip of your local copy."
 
@@ -64,7 +64,7 @@ first.
 
 "Or let the CLI choose for you the next tip by omitting the block hash parameter."
 
-hint: use pull command to combine remote-fetch and forward.
+HINT: use pull command to combine remote-fetch and forward.
 
 
 
